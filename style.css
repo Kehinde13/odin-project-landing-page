@@ -1,0 +1,156 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+/* HERO */
+
+.hero {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: #1F2937;
+}
+
+.hero > div {
+    padding: 60px 20px;
+
+}
+
+.heroText {
+    max-width: 400px;
+}
+
+.heroText > h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.heroText > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroText > button {
+    background-color: #3882F6;
+    padding: 10px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border: 0;
+}
+
+.hero > div > img {
+    width: 100%;
+}
+
+/* Random */
+
+.Random {
+    text-align: center;
+}
+
+.Random > h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Random > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.motorcycle > img {
+    max-width: 300px;
+}
+
+/* quote */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+    max-width: 700px;
+    margin: auto;
+}
+
+blockquote {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: right;
+}
+
+/* call to action */
+
+.callToAction {
+    max-width: 60%;
+    margin: 80px auto;
+}
+
+.callToAction > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 20px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.callToAction > div > button {
+    align-self: center;
+    padding: 10px 28px;
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 40px;
+    font-size: 18px;
+}
+
